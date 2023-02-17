@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>test</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h2>Web Test</h2>
+      </div>
+      <div>
+        <ul class="links">
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label for="check" class="checkbtn"><i class="fa fa-bars"></i></label>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="overlay"></div>
+      <div class="text">
+        <h1>Web Site</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde,
+          excepturi.
+        </p>
+      </div>
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,288L48,256C96,224,192,160,288,144C384,128,480,160,576,176C672,192,768,192,864,170.7C960,149,1056,107,1152,96C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <section id="about" class="about container">
+      <h1>ABOUT</h1>
+      <div class="content">
+        <div class="text-box">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+            nemo id in sunt impedit enim atque nobis consequuntur voluptatem
+            quod aut, sit amet consectetur adipisicing elit. Suscipit nemo id in
+            , <br />
+            <p>ullam minus amet, vero, magnam repellendus placeat commodi</p>
+          </p>
+        </div>
+        <div class="about-image">
+          <img src="./images/web image.png" alt="about-image" />
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h1>CONTACT</h1>
+      <div class="contact-flex">
+        <div class="text">
+          <i class="fa-solid fa-phone"></i>
+          +20-356-485-356
+        </div>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Phone" />
+          <input type="email" placeholder="Email" />
+          <textarea placeholder="Message"></textarea>
+          <button type="submit">Contact Us</button>
+        </form>
+      </div>
+    </section>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
